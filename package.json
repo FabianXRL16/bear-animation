@@ -1,0 +1,14 @@
+{
+  "name": "bearbrey",
+  "version": "1.0.0",
+  "description": "Bear with a message of encouragement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bear"
+  ],
+  "author": "Fabian Pacherres",
+  "license": "MIT"
+}
