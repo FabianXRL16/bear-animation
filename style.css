@@ -132,7 +132,7 @@ span {
   margin: 0 auto;
   position: absolute;
   padding: 0;
-  box-shadow: #a15878 8px 8px 25px, #ffffff -15px -15px 25px;
+  box-shadow: #a15878 6px 6px 20px, #ffe6ef -10px -10px 20px;
 }
 
 .controls .btn .on {
@@ -150,6 +150,7 @@ span {
   width: 40px;
   border-radius: 50%;
   border: 2px dotted var(--bg-secondary);
+  background-color: var(--bg-primary);
   position: absolute;
   left: 0;
   right: 0;
