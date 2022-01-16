@@ -132,7 +132,7 @@ span {
   margin: 0 auto;
   position: absolute;
   padding: 0;
-  box-shadow: #a15878 8px 8px 25px, #ffffff -18px -18px 25px;
+  box-shadow: #a15878 8px 8px 25px, #ffffff -15px -15px 25px;
 }
 
 .controls .btn .on {
