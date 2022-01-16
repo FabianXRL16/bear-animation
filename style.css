@@ -29,13 +29,16 @@ span {
   white-space: nowrap;
   border-right: 2px solid;
   width: 9ch;
-  animation: typing 2s steps(9), blink 0.5s infinite step-end alternate;
+  animation: typing 6s steps(9) infinite, blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 
 @keyframes typing {
-  from {
+  0% {
     width: 0;
+  }
+  50% {
+    width: 9ch;
   }
 }
 
