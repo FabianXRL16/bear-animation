@@ -101,11 +101,11 @@ span {
   }
   2% {
     height: 3px;
-    transform: translate(0px, 2px);
+    transform: translate(0px, 4px);
     border-radius: 100%;
   }
   5% {
-    height: 15px;
+    height: 5px;
     transform: translate(0px, 0px);
     border-radius: 100%;
   }
