@@ -1,4 +1,4 @@
-let audio = new Audio("./sound.mp3");
+let audio = new Audio("../../assets/sound/sound.mp3");
 let j = 2;
 function sound() {
   let on = document.querySelector(".on");
