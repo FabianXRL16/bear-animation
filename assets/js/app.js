@@ -165,7 +165,6 @@ function changeSound(i) {
   currentSound += i;
   if (currentSound === 8) currentSound = 1;
   if (currentSound === 0) currentSound = 7;
-  console.log(currentSound)
   if (currentSound === 7) {
     audio7.play();
     audio1.pause();
