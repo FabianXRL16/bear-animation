@@ -37,6 +37,21 @@ body {
     rgba(254, 220, 0, 1) 100%
   );
 }
+.colorBody3 {
+  background: green;
+}
+.colorBody4 {
+  background: rgb(128, 0, 68);
+}
+.colorBody5 {
+  background: rgb(0, 43, 128);
+}
+.colorBody6 {
+  background: rgb(128, 55, 0);
+}
+.colorBody7 {
+  background: rgb(135, 132, 56);
+}
 
 .container {
   position: relative;
@@ -45,12 +60,17 @@ body {
 .container1 {
   position: absolute;
   transform: scale(1);
-  transition: .4s;
+  transition: 0.4s;
 }
-.container2 {
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7 {
   position: absolute;
   transform: scale(0);
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .text {
@@ -172,11 +192,23 @@ span {
   box-shadow: #7e6e08 6px 6px 20px, #ffe6ef -10px -10px 20px;
 }
 
-.controls .btn .on {
+.controls .btn .on-1,
+.controls .btn .on-2,
+.controls .btn .on-3,
+.controls .btn .on-4,
+.controls .btn .on-5,
+.controls .btn .on-6,
+.controls .btn .on-7 {
   display: none;
   transition: 0.3s;
 }
-.controls .btn .off {
+.controls .btn .off-1,
+.controls .btn .off-2,
+.controls .btn .off-3,
+.controls .btn .off-4,
+.controls .btn .off-5,
+.controls .btn .off-6,
+.controls .btn .off-7 {
   display: block;
   transition: 0.3s;
   opacity: 0.8;
@@ -479,10 +511,13 @@ span {
   }
 }
 
-.next {
+.newSound {
   position: absolute;
   bottom: 50px;
-  right: calc(100vw / 3);
+  width: 336px;
+  height: auto;
+  display: flex;
+  gap: 50px;
 }
 
 .floatBtn {
@@ -498,9 +533,8 @@ span {
 }
 
 @media (max-width: 768px) {
-  .next {
+  .newSound {
     position: absolute;
     bottom: 20px;
-    right: 20px;
   }
 }
