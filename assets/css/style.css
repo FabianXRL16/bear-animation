@@ -38,10 +38,24 @@ body {
   );
 }
 .colorBody3 {
-  background: green;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 17%,
+    rgba(223, 41, 43, 1) 89%,
+    rgba(223, 41, 43, 1) 100%
+  );
 }
 .colorBody4 {
-  background: rgb(128, 0, 68);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 12%,
+    rgba(155, 231, 254, 1) 73%,
+    rgba(155, 231, 254, 1) 100%
+  );
 }
 .colorBody5 {
   background: rgb(0, 43, 128);
