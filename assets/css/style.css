@@ -58,7 +58,13 @@ body {
   );
 }
 .colorBody5 {
-  background: rgb(0, 43, 128);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 37%,
+    rgba(255, 140, 84, 1) 100%
+  );
 }
 .colorBody6 {
   background: rgb(128, 55, 0);
