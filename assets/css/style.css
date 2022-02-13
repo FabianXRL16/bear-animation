@@ -208,11 +208,23 @@ span {
 }
 
 .controls .btn1 {
-  box-shadow: #a15878 6px 6px 20px, #ffe6ef -10px -10px 20px;
+  box-shadow: #a15878 6px 6px 20px, #ffb9d3 -10px -10px 20px;
 }
 
 .controls .btn2 {
-  box-shadow: #7e6e08 6px 6px 20px, #ffe6ef -10px -10px 20px;
+  box-shadow: #7e6e08 6px 6px 20px, #ffff00 -10px -10px 20px;
+}
+
+.controls .btn3 {
+  box-shadow: #6a0e0e 6px 6px 20px, #ff9898 -10px -10px 20px;
+}
+
+.controls .btn4 {
+  box-shadow: #149b8c 6px 6px 20px, #ffffff -10px -10px 20px;
+}
+
+.controls .btn5 {
+  box-shadow: #7e4508 6px 6px 20px, #ffdac3 -10px -10px 20px;
 }
 
 .controls .btn .on-1,
