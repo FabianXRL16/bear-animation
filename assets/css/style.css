@@ -742,3 +742,78 @@ span {
     transform: rotate(8deg);
   }
 }
+
+/*         Bear 5        */
+#armRBear5 {
+  animation: armRBear5 2s both 1s infinite;
+}
+
+@keyframes armRBear5 {
+  0%,
+  100% {
+    transform: translate(0, 0px)
+  }
+  50% {
+    transform: translate(0px, -10px)
+  }
+}
+#armLBear5 {
+  animation: armLBear5 2s both 1s infinite;
+}
+
+@keyframes armLBear5 {
+  0%,
+  100% {
+    transform: translate(0px, -10px)
+  }
+  50% {
+    transform: translate(0px)
+  }
+}
+
+#eyeRBear5, #eyeLBear5, #eyebrowLBear5, #eyebrowRBear5{
+  animation: eyeL 2s both 1s infinite;
+}
+
+#headBear5 {
+  animation: heardBear5 2s both 1s infinite; 
+}
+
+@keyframes heardBear5 {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: rotate(-16deg);
+  }
+}
+
+#earRBear5 {
+  animation: earRBear5 2s both 1s infinite;
+}
+
+@keyframes earRBear5 {
+  0%,
+  100% {
+    transform: translate(-5px, 5px);;
+  }
+  50% {
+    transform: translate(0px);
+  }
+}
+
+#earLBear5 {
+  animation: earLBear5 2s both 1s infinite;
+}
+
+@keyframes earLBear5 {
+  0%,
+  100% {
+    transform: translate(5px, 5px);;
+  }
+  50% {
+    transform: translate(0px);
+  }
+}
