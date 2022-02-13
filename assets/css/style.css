@@ -625,3 +625,120 @@ span {
 #eyeLBear3, #eyeRBear3, #mouth {
   animation: eyeL 2s both 1s infinite;
 }
+
+/*         Bear 4        */
+#armRBear4 {
+  animation: armRBear4 2s both 1s infinite;
+}
+
+@keyframes armRBear4 {
+  0%,
+  100% {
+    transform: rotate(2deg);
+    transform-origin: 0 0;
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+}
+
+#armLBear4 {
+  animation: armLBear4 2s both 1s infinite;
+}
+
+@keyframes armLBear4 {
+  0%,
+  100% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(0px, 10px);
+  }
+}
+
+#legLBear4 {
+  animation: legLBear4 2s both 1s infinite;
+}
+
+@keyframes legLBear4 {
+  0%,
+  100% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(8px, 0px);
+  }
+}
+
+#noseBear4 {
+  animation: noseBear4 2s both 1s infinite;
+}
+
+@keyframes noseBear4 {
+  0%,
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: scale(0.95);
+  }
+}
+
+#mouthBear4 {
+  animation: mouthBear4 2s both 1s infinite;
+}
+
+@keyframes mouthBear4 {
+  0%,
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+#earRBear4 {
+  animation: earRBear4 2s both 1s infinite;
+}
+
+@keyframes earRBear4 {
+  0%,
+  100% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-10px, 10px);
+  }
+}
+
+#earLBear4 {
+  animation: earLBear4 2s both 1s infinite;
+}
+
+@keyframes earLBear4 {
+  0%,
+  100% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(10px, 10px);
+  }
+}
+
+#heardBear4 {
+  animation: heardBear4 2s both 1s infinite;
+}
+
+@keyframes heardBear4 {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+}
