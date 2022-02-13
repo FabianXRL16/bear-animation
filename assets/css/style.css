@@ -132,12 +132,15 @@ span {
 @keyframes head {
   0%,
   100% {
-    transform: rotate(-1deg);
+    transform: rotate(3deg);
+    transform-origin: 50% 50%;
   }
   50% {
-    transform: rotate(1deg);
+    transform: rotate(-3deg);
   }
 }
+
+/*         Bear 1       */
 
 #armLeft {
   animation: armL 1s ease 0.5s infinite;
@@ -275,10 +278,11 @@ span {
 @keyframes headPet {
   0%,
   100% {
-    transform: rotate(0.5deg);
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
   }
   50% {
-    transform: rotate(-0.5deg);
+    transform: rotate(-5deg);
   }
 }
 
@@ -557,4 +561,67 @@ span {
     position: absolute;
     bottom: 20px;
   }
+}
+
+/*         Bear 3       */
+
+#armLBear3 {
+  animation: armLBear3 2s both 1s infinite;
+}
+
+@keyframes armLBear3 {
+  0%,
+  100% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-10px, 0px);
+  }
+}
+
+#armRBear3 {
+  animation: armRBear3 2s both 1s infinite;
+}
+
+@keyframes armRBear3 {
+  0%,
+  100% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(-8px, 0px);
+  }
+}
+
+#legLBear3 {
+  animation: legLBear3 2s both 1s infinite;
+}
+
+@keyframes legLBear3 {
+  0%,
+  100% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(0px, 10px);
+  }
+}
+
+#heardBear3 {
+  animation: heardBear3 2s both 1s infinite;
+}
+
+@keyframes heardBear3 {
+  0%,
+  100% {
+    transform: rotate(5deg);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+#eyeLBear3, #eyeRBear3, #mouth {
+  animation: eyeL 2s both 1s infinite;
 }
