@@ -854,3 +854,69 @@ span {
     transform: translate(0px);
   }
 }
+
+/*         Bear 6        */
+
+#headBear6 {
+  animation: heardBear6 3s both 0s infinite;
+}
+
+@keyframes heardBear6 {
+  0%,
+  100% {
+    transform: rotate(5deg);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+#armRBear6 {
+  animation: armRBear6 3s both 0s infinite;
+}
+
+@keyframes armRBear6 {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px);
+  }
+}
+
+#armLBear6 {
+  animation: armLBear6 3s both 0s infinite;
+}
+
+@keyframes armLBear6 {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 100%;
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+#eyeRBear6, #eyeLBear6 {
+  animation: eyeLBear6 2s ease 1s infinite;
+}
+
+@keyframes eyeLBear6 {
+  0% {
+    height: 15px;
+  }
+  2% {
+    height: 3px;
+    transform: translate(-1px, 2px);
+    border-radius: 100%;
+  }
+  5% {
+    height: 5px;
+    transform: translate(0px, 0px);
+    border-radius: 100%;
+  }
+}
