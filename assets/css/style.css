@@ -237,6 +237,16 @@ span {
   box-shadow: #7e4508 6px 6px 20px, #ffdac3 -10px -10px 20px;
 }
 
+.controls .btn6 {
+  box-shadow: #6c6c6c 6px 6px 20px, #ffffff -10px -10px 20px;
+}
+
+.controls .btn7 {
+  box-shadow: #be7eff 6px 6px 20px, #ffffff -10px -10px 20px;
+}
+
+
+
 .controls .btn .on-1,
 .controls .btn .on-2,
 .controls .btn .on-3,
