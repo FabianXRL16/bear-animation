@@ -67,7 +67,12 @@ body {
   );
 }
 .colorBody6 {
-  background: rgb(128, 55, 0);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(180, 179, 179, 1) 100%
+  );
 }
 .colorBody7 {
   background: rgb(135, 132, 56);
@@ -634,7 +639,9 @@ span {
   }
 }
 
-#eyeLBear3, #eyeRBear3, #mouth {
+#eyeLBear3,
+#eyeRBear3,
+#mouth {
   animation: eyeL 2s both 1s infinite;
 }
 
@@ -763,10 +770,10 @@ span {
 @keyframes armRBear5 {
   0%,
   100% {
-    transform: translate(0, 0px)
+    transform: translate(0, 0px);
   }
   50% {
-    transform: translate(0px, -10px)
+    transform: translate(0px, -10px);
   }
 }
 #armLBear5 {
@@ -776,19 +783,22 @@ span {
 @keyframes armLBear5 {
   0%,
   100% {
-    transform: translate(0px, -10px)
+    transform: translate(0px, -10px);
   }
   50% {
-    transform: translate(0px)
+    transform: translate(0px);
   }
 }
 
-#eyeRBear5, #eyeLBear5, #eyebrowLBear5, #eyebrowRBear5{
+#eyeRBear5,
+#eyeLBear5,
+#eyebrowLBear5,
+#eyebrowRBear5 {
   animation: eyeL 2s both 1s infinite;
 }
 
 #headBear5 {
-  animation: heardBear5 2s both 1s infinite; 
+  animation: heardBear5 2s both 1s infinite;
 }
 
 @keyframes heardBear5 {
@@ -809,7 +819,7 @@ span {
 @keyframes earRBear5 {
   0%,
   100% {
-    transform: translate(-5px, 5px);;
+    transform: translate(-5px, 5px);
   }
   50% {
     transform: translate(0px);
@@ -823,7 +833,7 @@ span {
 @keyframes earLBear5 {
   0%,
   100% {
-    transform: translate(5px, 5px);;
+    transform: translate(5px, 5px);
   }
   50% {
     transform: translate(0px);
