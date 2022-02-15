@@ -21,9 +21,7 @@ body {
   background: linear-gradient(
     180deg,
     rgb(255, 255, 255) 0%,
-    rgb(235, 196, 212) 23%,
-    rgb(207, 139, 168) 68%,
-    rgb(236, 76, 145) 100%
+    rgb(255, 112, 174) 100%
   );
 }
 
@@ -32,9 +30,7 @@ body {
   background: linear-gradient(
     180deg,
     rgb(255, 255, 255) 0%,
-    rgba(255, 242, 158, 1) 23%,
-    rgba(255, 236, 115, 1) 68%,
-    rgba(254, 220, 0, 1) 100%
+    rgb(255, 229, 63) 100%
   );
 }
 .colorBody3 {
@@ -42,9 +38,7 @@ body {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 17%,
-    rgba(223, 41, 43, 1) 89%,
-    rgba(223, 41, 43, 1) 100%
+    rgb(255, 75, 78) 100%
   );
 }
 .colorBody4 {
@@ -52,8 +46,6 @@ body {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 12%,
-    rgba(155, 231, 254, 1) 73%,
     rgba(155, 231, 254, 1) 100%
   );
 }
@@ -118,6 +110,47 @@ span {
   width: 9ch;
   animation: typing 6s steps(9) infinite, blink 0.5s infinite step-end alternate;
   overflow: hidden;
+}
+
+.title5 {
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 10ch;
+  animation: typing2 6s steps(10) infinite, blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.title7 {
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  white-space: nowrap;
+  border-right: 2px solid;
+  width: 11ch;
+  animation: typing3 6s steps(11) infinite, blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing3 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 11ch;
+  }
+}
+
+
+@keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 10ch;
+  }
 }
 
 @keyframes typing {
