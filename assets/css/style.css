@@ -245,8 +245,6 @@ span {
   box-shadow: #be7eff 6px 6px 20px, #ffffff -10px -10px 20px;
 }
 
-
-
 .controls .btn .on-1,
 .controls .btn .on-2,
 .controls .btn .on-3,
@@ -901,7 +899,8 @@ span {
   }
 }
 
-#eyeRBear6, #eyeLBear6 {
+#eyeRBear6,
+#eyeLBear6 {
   animation: eyeLBear6 2s ease 1s infinite;
 }
 
@@ -918,5 +917,106 @@ span {
     height: 5px;
     transform: translate(0px, 0px);
     border-radius: 100%;
+  }
+}
+
+/*         Bear 7        */
+
+#armRBear7 {
+  animation: armRBear7 2s both 0s infinite;
+}
+
+@keyframes armRBear7 {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(8px, 2px);
+  }
+}
+
+#armLBear7 {
+  animation: armLBear7 2s both 0s infinite;
+}
+
+@keyframes armLBear7 {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(-8px, 5px);
+  }
+}
+
+#tailBear7 {
+  animation: tailBear7 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s infinite;
+}
+
+@keyframes tailBear7 {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+}
+
+#headBear7 {
+  animation: headBear7 2s both 0s infinite;
+}
+
+@keyframes headBear7 {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+#earRBear7 {
+  animation: tailBear7 2s both 0s infinite;
+}
+
+@keyframes tailBear7 {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(2px, -2px);
+  }
+}
+
+#mainEyeBear7 {
+  animation: mainEyeBear7 2s both 0s infinite;
+}
+
+@keyframes mainEyeBear7 {
+  0%,
+  100% {
+    transform: translate(-2px, 2px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+}
+
+#legLBear7 {
+  animation: legLBear7 2s both 0s infinite;
+}
+
+@keyframes legLBear7 {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0px, 10px);
   }
 }
