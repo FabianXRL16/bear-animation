@@ -277,3 +277,8 @@ const typed2 = new Typed('.typed2', {
   strings: ['Chimmy', 'Jimin', 'Dance no Permission'],
   ...defaultProperties,
 })
+
+const typed3 = new Typed('.typed3', {
+  strings: ['Tata', 'V', 'Stay'],
+  ...defaultProperties,
+})
