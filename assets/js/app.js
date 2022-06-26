@@ -284,7 +284,7 @@ const typed3 = new Typed('.typed3', {
 })
 
 const typed4 = new Typed('.typed4', {
-  strings: ['Mang', 'J-Hope', 'Right and Left'],
+  strings: ['Koya', 'Namjoon', 'Right and Left'],
   ...defaultProperties,
 })
 
