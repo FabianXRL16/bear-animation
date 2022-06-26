@@ -102,64 +102,16 @@ body {
 }
 
 span {
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
   display: block;
   white-space: nowrap;
-  border-right: 2px solid;
-  width: 9ch;
-  animation: typing 6s steps(9) infinite, blink 0.5s infinite step-end alternate;
   overflow: hidden;
+  color: #141111;
 }
 
-.title5 {
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  white-space: nowrap;
-  border-right: 2px solid;
-  width: 10ch;
-  animation: typing2 6s steps(10) infinite, blink 0.5s infinite step-end alternate;
-  overflow: hidden;
-}
-
-.title7 {
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  white-space: nowrap;
-  border-right: 2px solid;
-  width: 11ch;
-  animation: typing3 6s steps(11) infinite, blink 0.5s infinite step-end alternate;
-  overflow: hidden;
-}
-
-@keyframes typing3 {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 11ch;
-  }
-}
-
-
-@keyframes typing2 {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 10ch;
-  }
-}
-
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 9ch;
-  }
+.title {
+  margin-right: 5px;
 }
 
 @keyframes blink {
@@ -251,15 +203,15 @@ span {
 }
 
 .controls .btn1 {
-  box-shadow: #a15878 6px 6px 20px, #ffb9d3 -10px -10px 20px;
+  box-shadow: #d06493 6px 6px 20px, #ffcde0 -10px -10px 20px;
 }
 
 .controls .btn2 {
-  box-shadow: #7e6e08 6px 6px 20px, #ffff00 -10px -10px 20px;
+  box-shadow: #bda401 6px 6px 20px, #fff5b4 -10px -10px 20px;
 }
 
 .controls .btn3 {
-  box-shadow: #6a0e0e 6px 6px 20px, #ff9898 -10px -10px 20px;
+  box-shadow: #a81d1d 6px 6px 20px, #ffa1a1 -10px -10px 20px;
 }
 
 .controls .btn4 {
@@ -267,7 +219,7 @@ span {
 }
 
 .controls .btn5 {
-  box-shadow: #7e4508 6px 6px 20px, #ffdac3 -10px -10px 20px;
+  box-shadow: #b06311 6px 6px 20px, #ffdac3 -10px -10px 20px;
 }
 
 .controls .btn6 {
@@ -275,7 +227,7 @@ span {
 }
 
 .controls .btn7 {
-  box-shadow: #be7eff 6px 6px 20px, #ffffff -10px -10px 20px;
+  box-shadow: #b36bfc 6px 6px 20px, #ffffff -10px -10px 20px;
 }
 
 .controls .btn .on-1,
@@ -311,7 +263,6 @@ span {
   margin: 0 auto;
   top: 0;
   box-sizing: border-box;
-  /* animation-name: turn; */
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
