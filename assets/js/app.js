@@ -310,7 +310,7 @@ const typed5 = new Typed('.typed5', {
 })
 
 const typed6 = new Typed('.typed6', {
-  strings: ['Van', 'ARMY', 'Blue y Grey'],
+  strings: ['Van', 'ARMY', 'Blue and Grey'],
   ...defaultProperties,
 })
 
