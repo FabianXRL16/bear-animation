@@ -200,6 +200,7 @@ span {
   padding: 0;
   background-color: transparent;
   cursor: pointer;
+  outline: none;
 }
 
 .controls .btn1 {
@@ -1002,5 +1003,11 @@ span {
   }
   50% {
     transform: translate(0px, 10px);
+  }
+}
+
+@media (max-width: 450px) {
+  span {
+    font-size: 20px;
   }
 }
