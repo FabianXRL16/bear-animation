@@ -9,25 +9,25 @@ let audio7 = new Audio('../../assets/sound/sound7.mp3')
 
 // Playlist autoplay
 audio1.addEventListener('ended', () => {
-  changeSound(1)
+  changeSoundAuto(2)
 })
 audio2.addEventListener('ended', () => {
-  changeSound(2)
+  changeSoundAuto(3)
 })
 audio3.addEventListener('ended', () => {
-  changeSound(3)
+  changeSoundAuto(4)
 })
 audio4.addEventListener('ended', () => {
-  changeSound(4)
+  changeSoundAuto(5)
 })
 audio5.addEventListener('ended', () => {
-  changeSound(5)
+  changeSoundAuto(6)
 })
 audio6.addEventListener('ended', () => {
-  changeSound(6)
+  changeSoundAuto(7)
 })
 audio7.addEventListener('ended', () => {
-  changeSound(0)
+  changeSoundAuto(1)
 })
 
 // Audio initial
@@ -169,8 +169,14 @@ function changeIcon(e) {
   }
 }
 
-function changeSound(i) {
+function changeSound(i){
   currentSound += i
+  if(currentSound === 8) currentSound = 1
+  changeSoundAuto(currentSound)
+}
+
+function changeSoundAuto(i) {
+  let currentSound  = i
   if (currentSound === 8) currentSound = 1
   if (currentSound === 0) currentSound = 7
   if (currentSound === 7) {
