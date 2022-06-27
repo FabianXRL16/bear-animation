@@ -170,8 +170,10 @@ function changeIcon(e) {
 }
 
 function changeSound(i){
+  console.log(currentSound)
   currentSound += i
-  if(currentSound === 8) currentSound = 1
+  if(currentSound === 8 ) currentSound = 1
+  if(currentSound === 0 ) currentSound = 7
   changeSoundAuto(currentSound)
 }
 
