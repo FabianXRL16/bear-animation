@@ -175,10 +175,12 @@ function changeSound(i){
   if(currentSound === 8 ) currentSound = 1
   if(currentSound === 0 ) currentSound = 7
   changeSoundAuto(currentSound)
+  console.log(currentSound)
 }
 
 function changeSoundAuto(i) {
-  let currentSound  = i
+  currentSound  = i
+  console.log(currentSound)
   if (currentSound === 8) currentSound = 1
   if (currentSound === 0) currentSound = 7
   if (currentSound === 7) {
@@ -272,6 +274,7 @@ function changeSoundAuto(i) {
     audio6.currentTime = 0
     changeIcon(!audio6.paused)
   }
+  console.log(currentSound)
 }
 
 /// typed
