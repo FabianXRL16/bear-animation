@@ -77,6 +77,7 @@ body {
 
 .container {
   position: relative;
+  margin-top: -50px;
 }
 
 .container1 {
@@ -552,7 +553,7 @@ span {
 
 .newSound {
   position: absolute;
-  bottom: 50px;
+  bottom: 80px;
   width: 336px;
   height: auto;
   display: flex;
@@ -569,13 +570,6 @@ span {
 .floatBtn:hover {
   opacity: 0.5;
   transition: 0.3s;
-}
-
-@media (max-width: 768px) {
-  .newSound {
-    position: absolute;
-    bottom: 20px;
-  }
 }
 
 /*         Bear 3       */
@@ -1004,6 +998,15 @@ span {
   50% {
     transform: translate(0px, 10px);
   }
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  opacity: 1;
 }
 
 @media (max-width: 450px) {
