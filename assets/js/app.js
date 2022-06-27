@@ -7,15 +7,31 @@ let audio5 = new Audio('../../assets/sound/sound5.mp3')
 let audio6 = new Audio('../../assets/sound/sound6.mp3')
 let audio7 = new Audio('../../assets/sound/sound7.mp3')
 
-// Infinity Repro
-audio1.loop = true
+// Playlist autoplay
+audio1.addEventListener('ended', () => {
+  changeSound(1)
+})
+audio2.addEventListener('ended', () => {
+  changeSound(2)
+})
+audio3.addEventListener('ended', () => {
+  changeSound(3)
+})
+audio4.addEventListener('ended', () => {
+  changeSound(4)
+})
+audio5.addEventListener('ended', () => {
+  changeSound(5)
+})
+audio6.addEventListener('ended', () => {
+  changeSound(6)
+})
+audio7.addEventListener('ended', () => {
+  changeSound(0)
+})
+
+// Audio initial
 audio1.pause()
-audio2.loop = true
-audio3.loop = true
-audio4.loop = true
-audio5.loop = true
-audio6.loop = true
-audio7.loop = true
 
 // Globals
 let $back = document.querySelector('#back')
@@ -63,37 +79,29 @@ let btn6 = document.querySelector('.circle6')
 let btn7 = document.querySelector('.circle7')
 
 // Current Sound
-
 let currentSound = 1
 
 function sound(i) {
   currentSound = i
   if (i === 1) {
-    audio1.loop = true
     audio1.paused ? audio1.play() : audio1.pause()
     changeIcon(!audio1.paused)
   } else if (i == 2) {
-    audio2.loop = true
     audio2.paused ? audio2.play() : audio2.pause()
     changeIcon(!audio2.paused)
   } else if (i == 3) {
-    audio3.loop = true
     audio3.paused ? audio3.play() : audio3.pause()
     changeIcon(!audio3.paused)
   } else if (i == 4) {
-    audio4.loop = true
     audio4.paused ? audio4.play() : audio4.pause()
     changeIcon(!audio4.paused)
   } else if (i == 5) {
-    audio5.loop = true
     audio5.paused ? audio5.play() : audio5.pause()
     changeIcon(!audio5.paused)
   } else if (i == 6) {
-    audio6.loop = true
     audio6.paused ? audio6.play() : audio6.pause()
     changeIcon(!audio6.paused)
   } else {
-    audio7.loop = true
     audio7.paused ? audio7.play() : audio7.pause()
     changeIcon(!audio7.paused)
   }
